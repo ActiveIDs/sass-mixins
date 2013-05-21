@@ -1,6 +1,14 @@
 /**
  * sass mixins: BORDER RADIUS
  *
+ * example usage:
+ *	.button {
+ *		@include border-radius(5px);
+ *	}
+ *	.submit-button{
+ *		@include border-top-radius(10px);
+ *	}
+ *
  * @section 	sass-mixins
  * @subsection 	border-radius
  * @author 		Jake Bresnehan
